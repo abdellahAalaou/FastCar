@@ -1,0 +1,158 @@
+:root {
+    --pink-color : #d80c36 ;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik' ;
+
+}
+.logo img {
+    height: 40px;
+    width: 70px;
+    margin: 4px;
+    margin-left: 20px;
+
+}
+.nav {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+.nav-bar ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex ;
+    gap: 50px;
+    color: white;
+    padding-left: 50px;
+
+}
+.nav-bar ul li{
+    cursor: pointer;
+}
+.nav-bar ul li:hover {
+    color: var(--pink-color);
+}
+.nav-bar{
+    border-bottom: 1px solid white;
+    width: 650px;
+
+}
+.search{
+    outline: 1px solid white;
+    border: white;
+    color: white;
+    background-color: transparent; 
+    height: 50px;
+    width: 250px;
+    margin-right:40px;
+    padding-left: 10px;
+
+}
+.search::placeholder {
+    color: white;
+
+}
+.search-nav{
+    position: relative;
+}
+.search-nav  i {
+    color: white;
+    right: 0;
+    position: absolute;
+    top: 18px;
+    right: 50px;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+.container-img {
+    width: 150%;
+    margin-top: 70px;
+}
+.container-text h1{
+    width: 60%;
+    margin: 90px 0  0px 80px;
+    font-size: 60px; 
+}
+.container-text p {
+    margin-left: 80px;
+
+}
+.container-btn{
+    display: flex;
+    margin-left: 80px;
+    gap: 30px;
+
+}
+.container-btn button:hover{
+    background-color: var(--pink-color);
+}
+.container-btn button{
+    height: 40px;
+    width: 150px;
+    gap: 30px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid white;
+
+}
+
+.container-img img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.section-2 {
+    display: flex;
+    align-items: start;
+    background-color: black;
+}
+.about{
+    background-color: var(--pink-color);
+}
+.about img{
+    position:relative;
+    height: 400px;
+    margin-left: 30px;
+    right: 30px;
+    bottom: 20px;
+}
+.about-us {
+    color: white;
+    background-color:black ;
+    padding-left: 20px;
+    padding-right: 220px;
+
+}
+.about-us ul li {
+    margin-top: 30px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.learn-more-btn{
+    background-color: var(--pink-color);
+    height: 40px;
+    width: 150px;
+    gap: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.section-3 {
+    display: flex;
+    background-color: black;
+}
+.nature-pic{
+    height: 500px;
+    width: 700px;
+}
