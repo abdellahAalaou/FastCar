@@ -90,6 +90,8 @@ body {
     display: flex;
     margin-left: 80px;
     gap: 30px;
+    
+
 
 }
 .container-btn button:hover{
@@ -103,6 +105,7 @@ body {
     background-color: transparent;
     border-color: white;
     border: 2px solid white;
+    cursor: pointer;
 
 }
 
@@ -147,12 +150,118 @@ body {
     color: white;
     border: none;
     cursor: pointer;
+    margin-left:40px;
+    margin-top: 15px;
 }
 .section-3 {
+    position: relative;
     display: flex;
     background-color: black;
+    color: white;
+    align-items: start;
+    height: 700px;
+    padding-left: 90px;
 }
 .nature-pic{
+    position: relative;
     height: 500px;
-    width: 700px;
+    width:100%;
+    /* padding-top: 100px; */
+}
+.section-text {
+    padding-left: 100px;
+    width: 70%;
+    margin-top: 50px;
+}
+.text-pic ul li {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+.about-btn{
+    display: flex;
+    gap: 20px;
+
+}
+.about-btn .test {
+    color: #5a6e1b;
+    background-color: #5a6e1b;
+    border: none;
+}
+
+.about-btn button{
+    height: 40px;
+    width: 150px;
+    gap: 30px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.about-btn button:hover{
+    background-color: var(--pink-color);
+
+}
+.top-pic{
+    position: absolute;
+    top: 140px;
+    right: 190px;
+    width: 650px;
+ 
+}
+
+.card {
+    text-align: center;
+background-color: black;
+width: 270px;
+height: 448px;
+border:0.5px solid white;
+color: white;
+
+}
+.card:hover{
+    list-style-type: none;
+    border: none;
+    background-color: var(--pink-color);
+}
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.section-4 img {
+    height: 220px;
+    width: 100%;
+}
+
+.price{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.arrow {
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+
+}
+
+.arrow button {
+    background-color: transparent;
+    color: var(--pink-color);
+    cursor: pointer;
+    border: 2px solid black;
+    height: 50px;
+    width: 60px;
+    font-size: 40px;
+    margin: 8px;
 }
